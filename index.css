@@ -1,0 +1,126 @@
+html, body {
+    margin: auto;
+    padding: 0px 0px 50px 0px;
+    
+    width: 375px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    
+}
+
+
+/* --------------------------------- layout */
+
+.flex-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+ 
+}
+
+.post-footer {
+    height: 78px;
+    padding: 10px;
+    
+}
+
+.header {
+    height: 67px;
+    border-bottom: 1px solid #C6C6C6;
+
+}
+
+.name, .location {
+    margin: 10px 10px 10px 17px;
+}
+
+.post {
+    border-bottom: 1px solid #C6C6C6;
+    padding-bottom: 20px;
+}
+
+.icons{
+    /* margin: 10px px 11px 10px;  */
+    display:flex;
+}
+
+.likes {
+    margin: 12px 0px 12px 0px;
+}
+
+
+.likes, .username-comment {
+    margin-left: 10px;
+    /* margin-bottom: 10px; */
+    
+}
+
+
+
+
+/* --------------------------------- typography */
+
+.post .name, .likes, .username{
+    font-weight: 700;
+}
+
+/* images */
+
+.avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.header .avatar {
+    margin-right: 16px;
+}
+
+.logo {
+    width: 115px;
+    height: 50px;
+    margin: 16px;
+}
+
+.post .avatar {
+    width: 32px;
+    border-radius: 50%;
+    margin: 10px 0px 10px 10px;
+
+}
+
+.post .img {
+    width: 100%;
+}
+
+
+
+/* --------------------------------- icons */
+.icons{
+    margin: 10px 260px 12px 10px; 
+    display:flex;
+}
+
+.heart-icon, .comment-icon, .message-icon {
+    width: 23px;
+    height: 23px;   
+}
+
+.comment-icon, .message-icon {
+    margin: 0px 0px 0px 15px;
+}
+
+
+
+
+        
+    
+
+
+
